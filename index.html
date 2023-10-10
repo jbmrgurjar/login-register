@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="hero">
+        
+        <div class="form-box">
+            <h6>@jbmr_gurjar_001</h6>
+            <div class="button-box">
+                <div id="btn"></div>
+               
+                <button type="button" class="toggle-btn" onclick="login()"> Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()"> Register</button>
+            </div>
+            
+            <div class="social-icons">
+                <ul>
+                    <li> <a href="#" target="_blank"> <i class="fab fa-facebook"></i> </a>  </li>
+                    <li> <a href="#" target="_blank"> <i class="fab fa-linkedin"></i> </a>  </li>
+                    <li> <a href="#" target="_blank"> <i class="fab fa-google"></i> </a>  </li>
+                    <script src="https://kit.fontawesome.com/5fefa182d7.js" crossorigin="anonymous"></script>
+                </ul>
+             </div>
+             
+             <form id="login" class="input-group">
+                <input type="email" class="input-field" placeholder="Email Id" required  autofocus>
+                <input type="password" class="input-field" placeholder="Enetr Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log in</button>
+                </form>
+             <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="User Name" required autofocus>
+                <input type="email" class="input-field" placeholder="Email Id" required>
+                <input type="password" class="input-field" placeholder="Enetr Password"
+                required>
+                <input type="checkbox" class="check-box"><span>I agree to the terms & Condition</span>
+                <button type="submit" class="submit-btn">Register</button>
+                </form>
+        </div>
+        
+
+
+             </div>
+</body>
+<script src="main.js"></script>
+</html>
